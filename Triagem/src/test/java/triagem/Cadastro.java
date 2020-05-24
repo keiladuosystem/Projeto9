@@ -142,7 +142,7 @@ public class Cadastro {
 		url1 = "https://coronavirusportugal.duodoctor.com.br";
 		String cwd = System.getProperty("user.dir");
 		System.setProperty("webdriver.chrome.driver",
-				cwd+"/driver/81/chromedriver.exe");
+				cwd+"/driver/83/chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
@@ -311,7 +311,7 @@ public class Cadastro {
 		 driver.navigate (). refresh ();
 		 Thread.sleep(5000);
 		 driver.navigate (). refresh ();
-		 Thread.sleep(5000);
+		Thread.sleep(5000);
 		 driver.navigate (). refresh ();
 		 Thread.sleep(5000);
 		 driver.navigate (). refresh ();
