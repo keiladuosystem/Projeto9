@@ -315,6 +315,8 @@ public class Cadastro {
 		 driver.navigate (). refresh ();
 		 Thread.sleep(5000);
 		 driver.navigate (). refresh ();
+		 Thread.sleep(5000);
+		 driver.navigate (). refresh ();
 	try{
 		if( driver.findElement(By.xpath("/html/body/div[1]/div/div/div/table/tbody/tr[1]/td[4]/a[1]")).isDisplayed()) 
 		{
